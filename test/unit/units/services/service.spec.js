@@ -305,7 +305,7 @@ describe('service/property', () => {
 		it('should return a number of deleted items', async () => {
 			const ret = await  instance.delete(id);
 
-			expect(ret).toBe(1);
+			expect(ret).toBe(2);//1
 		})
 
 	});
